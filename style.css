@@ -1,0 +1,72 @@
+body{
+    background-color: grey;
+}
+
+#outer-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#link{
+color: white;
+font-weight: bolder;
+}
+
+#inner-div{
+    padding-top: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    width: 700px;
+    color: black;
+    border-radius: 40px;
+    box-shadow: 0cqb;
+}
+
+#timer{
+    font-size:100px
+}
+
+.button-div{
+    height: 40px;
+    width:120px;
+    border-radius: 5px;
+    font-weight: bold;
+    border-style: hidden;
+    box-shadow:  0 2px 4px rgba(1, 1, 1, 0.2);
+    background-color: rgb(91, 90, 90);
+    color: white;
+
+}
+
+#buttons{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+
+}
+.footer{
+    color: white;
+}
+
+#message{
+    font-weight: bold;
+    color: rgb(135, 0, 197);
+    
+}
+
+#timer-photo{
+    height:50px;
+    width:50px;
+    margin-top: 10px;
+}
+
+#div-image{
+    display: flex;
+    gap:10px;
+}
